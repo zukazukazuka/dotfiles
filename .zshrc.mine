@@ -1,0 +1,13 @@
+alias ls='ls -alFGh'
+alias less='less -M'
+alias rm="rm -i"
+alias tree="tree -N"
+
+export JAVA_HOME=/Library/Java/Home
+export PATH=/usr/local/bin:$PATH:~/bin
+source "/Users/kazu/.gvm/bin/gvm-init.sh"
+
+export RBENV_ROOT=~/.rbenv
+export PATH="$RBENV_ROOT/bin:$PATH"
+eval "$(rbenv init -)"
+
